@@ -152,7 +152,7 @@ git config --global user.email "$CRAWL_GIT_EMAIL"
 git config --global user.name "$CRAWL_GIT_USER"
 git_update_repo "$CRAWL_GIT_REPO" output "$CRAWL_GIT_BRANCH"
 
-PATH="$geth_src:$PATH"
+PATH="$etnsc_src:$PATH"
 cd output
 
 init_prometheus_metrics
